@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dior Lipstick</title>
+  <link rel="stylesheet" href="dior-page.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Dior <span>Lipstick</span></div>
+    <nav aria-label="Điều hướng chính">
+      <ul>
+        <li><a href="#hero">Trang chủ</a></li>
+        <li><a href="#dong-son">Dòng son</a></li>
+        <li><a href="#mau-son">Bảng màu</a></li>
+        <li><a href="#goi-y">Gợi ý chọn son</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero" id="hero">
+    <button class="arrow left" id="prev" aria-label="Slide trước">&#10094;</button>
+    <button class="arrow right" id="next" aria-label="Slide sau">&#10095;</button>
+
+    <div class="hero-text">
+      <h1 id="hero-title">Rouge Dior</h1>
+      <p id="hero-desc">Sắc đỏ kinh điển, màu sắc đậm và rõ nét cho mọi dịp quan trọng.</p>
+      <a class="btn" href="#dong-son">Khám phá ngay</a>
+    </div>
+
+    <div class="hero-tube" aria-hidden="true">
+      <div class="bullet" id="hero-bullet"></div>
+      <div class="case"></div>
+    </div>
+
+    <div class="mini">
+      <button class="t0 active" data-i="0">Rouge Dior</button>
+      <button class="t1" data-i="1">Addict</button>
+      <button class="t2" data-i="2">Lip Glow</button>
+    </div>
+  </div>
+
+  <div class="section" id="dong-son">
+    <h2>Các dòng son nổi bật</h2>
+    <p class="sub">Giới thiệu chung, thông tin chi tiết và giá bạn nên xem ở nguồn chính thức.</p>
+    <div class="grid">
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/2b/8d/d3/2b8dd3a0c515904a41b4686cb0a4f518.jpg" alt="Rouge Dior" loading="lazy">
+        <h3>Rouge Dior</h3>
+        <p>Dòng son kinh điển ra đời năm 1953, nhiều hoàn thiện lì, satin, ánh kim.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/6b/13/07/6b1307c7a5047e5319f6bf60d450ef26.jpg" alt="Dior Addict" loading="lazy">
+        <h3>Dior Addict</h3>
+        <p>Căng bóng, thoải mái khi đeo, hợp phong cách trang điểm hằng ngày.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.pinimg.com/736x/05/a9/48/05a94842c5c44c50dd1a85fc4091ad72.jpg" alt="Dior Lip Glow" loading="lazy">
+        <h3>Dior Lip Glow</h3>
+        <p>Son dưỡng có màu, giúp môi hồng hào tự nhiên và mềm mượt.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.pinimg.com/1200x/b8/ff/8a/b8ff8a96197465e693a30523c39bf6a5.jpg" alt="Lip Maximizer" loading="lazy">
+        <h3>Lip Maximizer</h3>
+        <p>Dưỡng bóng làm đầy môi, dùng riêng hoặc phủ lên son màu.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="mau-son">
+    <h2>Bảng màu tham khảo</h2>
+    <p class="sub">Màu chỉ mang tính minh họa, màu thực tế khác nhau theo dòng son và màn hình.</p>
+    <div class="grid">
+      <div class="card"><div class="dot" style="--c:#b3001b"></div><h3>Đỏ cổ điển</h3></div>
+      <div class="card"><div class="dot" style="--c:#d9778c"></div><h3>Hồng cánh hoa</h3></div>
+      <div class="card"><div class="dot" style="--c:#e2674f"></div><h3>San hô</h3></div>
+      <div class="card"><div class="dot" style="--c:#6e1233"></div><h3>Mận chín</h3></div>
+      <div class="card"><div class="dot" style="--c:#c08a73"></div><h3>Nude ấm</h3></div>
+    </div>
+  </div>
+
+  <div class="section" id="goi-y">
+    <h2>Gợi ý chọn màu theo tông da</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Da sáng</h3>
+        <p>Hồng lạnh, đỏ cherry hoặc mận nhạt.</p>
+      </div>
+      <div class="card">
+        <h3>Da trung bình</h3>
+        <p>San hô, đỏ gạch và hồng đất.</p>
+      </div>
+      <div class="card">
+        <h3>Da ngăm</h3>
+        <p>Đỏ rượu vang, mận đậm và nâu cam.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Trang giới thiệu cá nhân, không phải trang chính thức của Dior và không bán hàng.<br>
+    Dior là thương hiệu của chủ sở hữu tương ứng.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
